@@ -11,12 +11,12 @@
       "reservationDuration": "",
       "automation": [
         {
-          "testPath": "eduard-repo2/test_cases/test.fftc"
+          "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
         }
       ],
       "startupTasks": [
         {
-          "testPath": "eduard-repo2/test_cases/test.fftc"
+          "testPath": "main/simpleTestCase/test_cases/nothing.fftc"
         }
       ]
     }
