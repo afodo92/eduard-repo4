@@ -1,1 +1,24 @@
-{"topology":[{"actionTitle":"Reserve","name":"Velocity Cluster","description":"Create an immediate reservation on the topology","reservationDuration":""}],"name":"activity1","icon":"customActivityManual.svg","descriptionMarkdown":"activity - Copy (1).md","shortDescription":"Test Activity for Scale Testing"}
+{
+  "name": "activity1",
+  "icon": "customActivityManual.svg",
+  "descriptionMarkdown": "activity - Copy (1).md",
+  "shortDescription": "Test Activity for Scale Testing",
+  "topology": [
+    {
+      "actionTitle": "Reserve",
+      "name": "Velocity Cluster",
+      "description": "Create an immediate reservation on the topology",
+      "reservationDuration": "",
+      "automation": [
+        {
+          "testPath": "eduard-repo2/test_cases/test.fftc"
+        }
+      ],
+      "startupTasks": [
+        {
+          "testPath": "eduard-repo2/test_cases/test.fftc"
+        }
+      ]
+    }
+  ]
+}
